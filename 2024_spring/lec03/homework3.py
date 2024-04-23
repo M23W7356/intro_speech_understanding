@@ -1,6 +1,6 @@
 
 
-def cancellation(list, stop_word):
+def cancellation(input_list, stop_word):
     '''
     Copy elements one by one from input_list into output_list. 
     If one of the elements is equal to the stop_word, then stop the function,
@@ -31,7 +31,7 @@ def my_average(input_list):
     You may assume that `input_list` is a non-empty list, in which every element is a number.  
     Calculate the average value, and return it. 
     '''
-    passsum = 0
+    sum = 0
     for x in input_list:
         sum =sum + x
     return sum / len(input_list)
