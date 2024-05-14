@@ -8,7 +8,7 @@ def list_to_dict(input_list):
     here is some extra text.
     '''
     output_dict = {}
-    for n,item in enumerate input_list:
+    for n,item in enumerate(input_list):
         output_dict[n] = item
     return output_dict
 
